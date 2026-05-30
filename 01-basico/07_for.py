@@ -10,7 +10,7 @@ for letra in texto: # aqui a variavel letra vai receber cada caractere da string
 for i in range(5): # aqui o for vai se repetir 5 vazes e a variavel i vai receber os valores de 0 a 4 a cada iteração do for.
     print("Iteração:", i)
     
-# lista e controle de fluxo:
+# for com listas 
 frutas = ["maçã", "banana", "uva", "laranja"]
 
 for fruta in frutas:
@@ -19,3 +19,14 @@ for fruta in frutas:
         break # o break é uma palavra reservada que serva para sair completamente do loop, ou seja quando a uva for encontrada o for vai ser interrompido.
     print("verificando ... a fruta é uma :", fruta)
     
+
+# pulando um numero
+
+for i in range(10):
+    
+    if i == 6:
+        print("pulando o numero 6")
+        continue # o continue é uma palavra resenvada que pula a iteração atual do loop, ou seja quando i for igual a 6 o continue vai fazer com que o for pule para a proxima iteração.
+    print("Numero atual:", i)
+    
+# break e continue são muito usados para controle de fluxo dentro de um loop, o break para sair completamente do loop eo continue para pular uma iteração especifica do loop e continuar com as proximas iterações.        
