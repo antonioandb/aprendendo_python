@@ -15,3 +15,5 @@ print(soma1) # 9
 numeros = (2, 4, 6)
 soma2 = somar(*numeros) # aqui a tupla numeros é descompactada usando o * e cada elemento da tupla é passado como um argumento separado para a função somar
 print(soma2) # 12
+
+# o operador * é usao para descompactar a tupla numeros e passar cada elemento como um argumento separado para a função somar.
